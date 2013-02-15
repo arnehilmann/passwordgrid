@@ -1,0 +1,28 @@
+body {
+  padding: 1ex;
+  font-family: "Ubuntu", sans-serif;
+}
+td, tr {
+  padding: 0;
+  margin: 0;
+}
+table {
+  border-collapse: collapse;
+}
+tr.odd td {
+  border: 1px solid white;
+  background-color: grey;
+  color: white;
+  font-weight: bold;
+}
+td:first-child, td:last-child {
+  font-weight: bold;
+}
+
+tr.even td:not(:first-child), th:not(:first-child) {
+  border-left: 1px solid grey;
+}
+th, td {
+  width: 1em;
+  height: 1em;
+}
