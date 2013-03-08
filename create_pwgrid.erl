@@ -1,4 +1,4 @@
--module(test3).
+-module(create_pwgrid).
 -compile(export_all).
 -include_lib("eunit/include/eunit.hrl").
 -export([start/0]).
