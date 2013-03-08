@@ -1,0 +1,5 @@
+#!/bin/bash
+
+MODULE=create_pwgrid
+erlc $MODULE.erl
+erl -pa ./ -run $MODULE start -run init stop -noshell
